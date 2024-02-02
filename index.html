@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+  <h1>Currency Converter</h1>
+  <form>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" required>
+
+    <label for="from">From:</label>
+    <select id="from" name="from" required>
+      <option value="">Select currency</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="INR">INR</option>
+      <option value="JPY">JPY</option>
+      <option value="GBP">GBP</option>
+      <option value="AUD">AUD</option>
+      <option value="CAD">CAD</option>
+      <option value="CHF">CHF</option>
+      <option value="CNY">CNY</option>
+      <option value="HKD">HKD</option>
+      <option value="NZD">NZD</option>
+    </select>
+
+    <label for="to">To:</label>
+    <select id="to" name="to" required>
+      <option value="">Select currency</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="INR">INR</option>
+      <option value="JPY">JPY</option>
+      <option value="GBP">GBP</option>
+      <option value="AUD">AUD</option>
+      <option value="CAD">CAD</option>
+      <option value="CHF">CHF</option>
+      <option value="CNY">CNY</option>
+      <option value="HKD">HKD</option>
+      <option value="NZD">NZD</option>
+    </select>
+
+    <button type="submit">Convert</button>
+  </form>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
